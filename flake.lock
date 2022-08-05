@@ -37,22 +37,49 @@
       "inputs": {
         "flakeNimbleLib": "flakeNimbleLib",
         "nixpkgs": "nixpkgs",
-        "src-util-master": "src-util-master"
+        "util-master": "util-master"
       }
     },
     "src-util-master": {
       "flake": false,
       "locked": {
-        "lastModified": 1659701070,
-        "narHash": "sha256-4X1nfYXtBZ6TspYXQT3hrNPsiovDdEbUswnb7Rs9P6Y=",
+        "lastModified": 1659121216,
+        "narHash": "sha256-wJWFO0gCjfI5g1WUqPSJ67G+s0VHHp5QT81FraOJA00=",
         "owner": "thisago",
         "repo": "util",
-        "rev": "e329128fdd27c30ecb2c8d0bbf7ec0f5b451b250",
+        "rev": "0aaed63043588baa697e0346d2a3086069a63a20",
         "type": "github"
       },
       "original": {
         "owner": "thisago",
         "ref": "refs/heads/master",
+        "repo": "util",
+        "type": "github"
+      }
+    },
+    "util-master": {
+      "inputs": {
+        "flakeNimbleLib": [
+          "flakeNimbleLib"
+        ],
+        "nixpkgs": [
+          "nixpkgs"
+        ],
+        "src-util-master": "src-util-master"
+      },
+      "locked": {
+        "dir": "master",
+        "lastModified": 1659475806,
+        "narHash": "sha256-2FZT+pEGC8mat1Fd4gjKlKxnwzz72Ci1meoGs/DpX30=",
+        "owner": "nim-nix-pkgs",
+        "repo": "util",
+        "rev": "d34c336fbbd27e7315a2179b7a5bc0cc97b35e09",
+        "type": "github"
+      },
+      "original": {
+        "dir": "master",
+        "owner": "nim-nix-pkgs",
+        "ref": "master",
         "repo": "util",
         "type": "github"
       }
