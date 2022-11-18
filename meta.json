@@ -13,7 +13,7 @@
   "heads": [
     {
       "name": "util",
-      "version": "0.4.0",
+      "version": "1.5.1",
       "author": "Thiago Navarro",
       "desc": "Small utilities that isn't large enough to have a individual modules",
       "license": "MIT",
